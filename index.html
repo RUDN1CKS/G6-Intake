@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>4ID G6 Service Request</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b1f23;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 500px;
+            margin: auto;
+            background: #24292e;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: none;
+        }
+        button {
+            background-color: #2ea44f;
+            color: white;
+            padding: 12px;
+            border: none;
+            width: 100%;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #22863a;
+        }
+    </style>
+</head>
+<body>
+
+<h1>4ID G6 Service Request</h1>
+
+<form>
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your name" required>
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email" required>
+
+    <label>Network Type</label>
+    <select required>
+        <option value="">Select Network</option>
+        <option>NIPR</option>
+        <option>SIPR</option>
+    </select>
+
+    <label>Issue Description</label>
+    <textarea rows="4" placeholder="Describe your issue..." required></textarea>
+
+    <button type="submit">Submit Request</button>
+</form>
+
+</body>
+</html>
